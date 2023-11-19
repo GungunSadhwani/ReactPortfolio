@@ -1,13 +1,17 @@
 // import logo from './logo.svg';
 import './App.css';
 import Myheader from './components/header.js';
-import A from './components/footer.js';
+import { HeroSection } from './components/herosection.js';
+// import A from './components/footer.js';
+import ContactForm from './components/contact.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div>
       <Myheader />
-      <A />
+      <HeroSection />
+      <ContactForm />
       
     </div>
   );
